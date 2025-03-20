@@ -2,7 +2,7 @@ import { ChevronDownIcon } from '@heroicons/react/16/solid'
 import { Field, Label, Switch } from '@headlessui/react'
 import { useContext } from "react";
 import { useRegister } from "../../api/authApi";
-import { UserContext } from "../../contexts/UserContext";
+import { UserContext } from "../../context/UserContext";
 import { useNavigate } from "react-router";
 
 

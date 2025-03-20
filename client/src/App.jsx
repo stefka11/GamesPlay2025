@@ -2,24 +2,23 @@
 import { useState } from 'react'
 import { Route, Routes } from 'react-router'
 
-import { UserContext} from './contexts/UserContext'
+import { UserContext} from './context/UserContext'
 
 import Header from './components/header/Header'
 import Home from './components/home/Home'
 import Login from './components/login/Login';
 import Register from './components/register/Register';
-import Catalog from './components/Catalog';
+import Catalog from './components/catalog/Catalog';
 import About from './components/About';
 import Contacts from './components/Contacts';
 import Blog from './components/Blog';
-import Logout from './components/Logout';
+import Logout from './components/logout/Logout';
 import './App.css'
 
 function App() {
   const [authData, setAuthData] = useState({});
-  console.log(authData);
+  //console.log(authData);
   
-
   const userLoginHandler = (resultData) => {
     setAuthData(resultData);
   };
@@ -27,7 +26,6 @@ function App() {
   const userLogoutHandler = () => {
     setAuthData({});
   };
-
 
   return (
     <UserContext.Provider value={{ ...authData, userLoginHandler, userLogoutHandler }}>
