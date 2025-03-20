@@ -6,7 +6,11 @@ const navigation = [
     { name: 'Home', path: '/' },
     { name: 'Catalog', path: '/catalog' },
     { name: 'About', path: '/about' },
+    { name: 'Blog', path: '/blog' },
     { name: 'Contacts', path: '/contacts' },
+    { name: 'Login', path: '/login' },
+    { name: 'Logout', path: '/logout' },
+    { name: 'Register', path: '/register' },
 ]
 
 export default function Header() {
