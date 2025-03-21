@@ -23,7 +23,7 @@ const callouts = [
     {
       title: 'ВИХРЕН',
       region: "ПИРИН",
-      opis:"Мраморен връх",
+      opis:"Мраморният връх",
       kota: "41.77 сш; 23.40 ид",
       img: "./images/Vihren.jpg",
       description: 'Daily commute essentials',

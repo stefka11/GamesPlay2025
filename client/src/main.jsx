@@ -5,6 +5,7 @@ import App from './App.jsx'
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <App />
+    <h1>Ehoooooo</h1>
   </BrowserRouter>
 
 )
